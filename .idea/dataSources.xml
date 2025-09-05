@@ -11,6 +11,7 @@
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
         <property name="com.intellij.clouds.kubernetes.db.container.port" />
       </jdbc-additional-properties>
+      <vm-options>-Xmx8192m</vm-options>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
